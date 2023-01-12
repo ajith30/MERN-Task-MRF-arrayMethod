@@ -32,7 +32,7 @@ request.onload = function () {
 
   // d. Print the total population of countries using reduce function
   const populations = response.map((country) => country.population);
-  console.log(populations);
+  //console.log(populations);
   const populationUsingreduce = populations.reduce(
     (accumulator, currentValue) => accumulator + currentValue
   );
